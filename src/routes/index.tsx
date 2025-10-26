@@ -59,28 +59,6 @@ function App() {
 				</div>
 			</main>
 
-			{/* Side Navigation */}
-			<nav className="fixed -right-[94px] top-1/2 -translate-y-1/2 origin-center -rotate-90 flex bg-white text-black px-6 py-3 gap-4">
-				<a
-					href="#projects"
-					className="block whitespace-nowrap text-sm font-medium tracking-wider hover:opacity-70 transition-opacity"
-				>
-					Projects
-				</a>
-				<a
-					href="#about"
-					className="block whitespace-nowrap text-sm font-medium tracking-wider hover:opacity-70 transition-opacity"
-				>
-					About
-				</a>
-				<a
-					href="#home"
-					className="block underline whitespace-nowrap text-sm font-medium tracking-wider hover:opacity-70 transition-opacity"
-				>
-					Home
-				</a>
-			</nav>
-
 			{/* Footer */}
 			<footer className="flex justify-end lg:justify-between items-end">
 				<div className="text-sm hidden lg:block">
