@@ -6,8 +6,7 @@ export const Route = createFileRoute("/")({
 
 function App() {
 	return (
-		<div className="h-[100dvh] py-4 px-5  bg-[#202020] text-[#878787] flex flex-col">
-			{/* Header */}
+		<>
 			<div className="flex justify-between items-start">
 				<div className="text-sm">
 					<div className="">Based in</div>
@@ -45,7 +44,6 @@ function App() {
 				</a>
 			</div>
 
-			{/* Main Content */}
 			<main className="flex-1 flex items-center lg:justify-center">
 				<div className="lg:flex lg:items-end gap-5">
 					<h1 className="text-4xl w-[232px] lg:w-[550px] lg:text-7xl lg:text-right text-white font-bold mb-5">
@@ -59,21 +57,20 @@ function App() {
 				</div>
 			</main>
 
-			{/* Footer */}
-			<footer className="flex justify-end lg:justify-between items-end">
-				<div className="text-sm hidden lg:block">
-					© 2025 • Rasikh Khalil Pasha
-				</div>
-				<div className="text-right">
-					<div className="text-sm">Want to hire me?</div>
-					<a
-						href="mailto:rasikhonly@gmail.com"
-						className="underline underline-offset-4 text-[#BDBDBD]"
-					>
-						rasikhonly@gmail.com
-					</a>
-				</div>
-			</footer>
-		</div>
+			{/* <footer className="flex justify-end lg:justify-between items-end"> */}
+			{/* 	<div className="text-sm hidden lg:block"> */}
+			{/* 		© 2025 • Rasikh Khalil Pasha */}
+			{/* 	</div> */}
+			{/* 	<div className="text-right"> */}
+			{/* 		<div className="text-sm">Want to hire me?</div> */}
+			{/* 		<a */}
+			{/* 			href="mailto:rasikhonly@gmail.com" */}
+			{/* 			className="underline underline-offset-4 text-[#BDBDBD]" */}
+			{/* 		> */}
+			{/* 			rasikhonly@gmail.com */}
+			{/* 		</a> */}
+			{/* 	</div> */}
+			{/* </footer> */}
+		</>
 	);
 }
