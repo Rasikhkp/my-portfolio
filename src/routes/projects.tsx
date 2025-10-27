@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ChevronLeft, ChevronRight, MoveLeft } from "lucide-react";
+import Ss from "@/assets/ss.png";
 
 export const Route = createFileRoute("/projects")({
 	component: RouteComponent,
@@ -15,7 +16,7 @@ function RouteComponent() {
 
 			<div className="pr-14 fixed top-1/2 -translate-y-1/2">
 				<div className="bg-[#262626] p-4 rounded-4xl">
-					<img src="/public/ss.png" className="rounded-2xl mb-4" />
+					<img src={Ss} className="rounded-2xl mb-4" />
 					<div className="text-xl text-white">Pestindo ERP</div>
 					<div className="mb-4">PT. Pestindo Mandiri Utama</div>
 
