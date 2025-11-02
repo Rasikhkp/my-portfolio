@@ -26,8 +26,25 @@ code {
 }
 .embla__container {
   display: flex;
+  margin-left: -16px;
 }
+
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
+  padding-left: 16px;
+}
+
+@media (min-width: 640px) {
+  .embla__slide {
+    flex: 0 0 50%;
+    padding-left: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .embla__slide {
+    flex: 0 0 33%;
+    padding-left: 16px;
+  }
 }

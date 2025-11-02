@@ -8,13 +8,13 @@ export const Route = createFileRoute("/projects")({
 
 function RouteComponent() {
 	return (
-		<>
-			<Link to="/" replace={false} className="flex gap-2 mb-16">
+		<div>
+			<Link to="/" replace={false} className="flex gap-2 mb-[calc(20vh)]">
 				<MoveLeft />
 				Back to Home
 			</Link>
 
 			<ProjectCarousel />
-		</>
+		</div>
 	);
 }
